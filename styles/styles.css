@@ -1,0 +1,177 @@
+h2 {
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 55px;
+color: rgb(187, 192, 119);
+}
+.running-line {
+    position: absolute;
+    height: 2px;
+    background-color: rgb(18, 251, 232);
+    animation: line 15s line infinite;
+}
+
+.running-line p {
+    
+    font-size: 60px;
+}
+
+#n1 {
+    width: 300px;
+    height: 250px;
+}
+#n2 {
+    width: 300px;
+    height: 250px;  
+}
+#n3 {
+    width: 300px;
+    height: 250px;
+}
+.runing-line {
+    position: absolute;
+    background-color: rgb(18, 251, 88);
+    animation: line 15s line infinite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.table-box {
+    margin-top: 120px;
+}
+
+    table {
+        border: solid 2px;
+        width: 25%; 
+        margin: 20px;
+        float: left; 
+    }
+
+    th, td {
+        border: solid 2px;
+        padding: 10px;
+        text-align: left;
+        color: red;
+   background-color: green;
+    }
+    footer{
+        background-color: rgb(5, 5, 71);
+    }
+    #photo1{
+        width: 66px;
+        left: 50px;
+    }
+    #photo2{
+        width: 66px;
+        left: 50px;
+    }
+    #photo3{
+        width: 66px;
+        left: 50px;
+    }
+    #photo4{
+        width: 66px;
+        left: 50px;
+    }
+    #photo5{
+        width: 66px;
+        left: 50px;
+    }
+
+    .text1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 30px;
+    }
+    #footerTextStyle {
+     
+    color: #f5f2f2;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif  
+}
+.line {
+    background-color: #e0d4d4;
+    width: 80px;
+    height: 2px;
+    margin-top: 16px;
+}
+
+.club{
+    display: flex;
+    flex-direction: column;
+    width: 80px;
+    margin-top: 15px;
+}
+.text{
+    color: #af4e4e;
+    text-decoration: none;
+    padding: 6px;
+}
+
+.text:hover {
+    text-decoration: underline;
+
+}
+.club2{
+    display: flex;
+    flex-direction: column;
+    width: 165px;
+    margin-top: 14px;
+}
+
+.club3{
+    display: flex;
+    flex-direction: column;
+    width: 165px;
+    margin-top: 14px;
+}.subscribe {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    margin-top: 15px;
+}
+
+#email {
+    border-radius: 30px;
+    padding: 8px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+#emailSubscribe {
+    border-radius: 30px;
+    padding: 8px;
+}
+
+#emailSubscribe:hover {
+    background-color: crimson;
+    color: #e0d4d4;
+    cursor:pointer;
+}
+
+
+.copy p {
+    color: #2b2727;
+}
+
+.lastFooterText {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 25px;
+    background-color: rgb(163, 196, 170);
+}
+
+#privacyText {
+    color: #2b2727;
+    text-decoration: none;
+}
+
+#privacyText:hover{
+    text-decoration: underline;
+}
+
+footer .mainHeaderText {
+    margin-left: 13px;
+    margin-right: 13px;
+} 
